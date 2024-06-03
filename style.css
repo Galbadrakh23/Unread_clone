@@ -40,7 +40,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: auto;
+  position: relative;
 }
 .article-title {
   position: relative;
@@ -74,4 +74,5 @@ header {
   line-height: 24px;
   font-weight: 600;
   font-family: "SF Display", sans-serif;
+  position: relative;
 }
