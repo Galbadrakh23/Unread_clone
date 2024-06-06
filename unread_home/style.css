@@ -27,16 +27,26 @@ header {
   color: #000;
 }
 .random {
+  font-size: smaller;
   color: #0078f6;
   animation-name: blink;
-  animation-duration: 5s;
+  animation-duration: 30s;
   animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
+.today span {
+  animation-name: blink;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
 @keyframes blink {
   0% {
-    color: #000;
+    opacity: 0%;
   }
   100% {
+    opacity: 100%;
     color: #0078f6;
   }
 }
@@ -53,6 +63,7 @@ header {
   opacity: 50%;
   font-family: Helvetica, sans-serif;
   font-weight: lighter;
+  font-size: 14px;
 }
 .social {
   display: flex;
@@ -140,15 +151,17 @@ header {
   color: #000;
   font-weight: lighter;
   font-size: small;
-  opacity: 50%;
 }
 .topic-head span {
   position: relative;
   font-family: "SF Display", sans-serif;
   color: #0078f6;
-  font-weight: lighter;
   font-size: small;
   padding-right: 20px;
+  animation-name: blink;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 .topic-title {
   position: relative;
@@ -218,8 +231,6 @@ header {
   background-size: contain;
 }
 .topic-main {
-  gap: 10px;
-  align-items: center;
   border: 1px solid salmon;
   font-family: "SF Display", sans-serif;
   color: #000;
@@ -239,10 +250,9 @@ header {
 .article-body {
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 30px;
   margin-top: 50px;
+  margin-right: 30px;
 }
 .article-body h2 {
   font-size: 15px;
@@ -250,11 +260,26 @@ header {
   font-weight: 500;
   font-family: sans-serif;
 }
+.topic-image {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
 .image-caption {
+  margin-top: 20px;
   opacity: 50%;
 }
 .topic-garchig {
   margin-top: 50px;
   text-transform: uppercase;
   color: #0078f6;
+  padding-bottom: 25px;
+}
+.apu {
+  text-decoration: none;
+  color: #0078f6;
+}
+.sports-photo {
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
