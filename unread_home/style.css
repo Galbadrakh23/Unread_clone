@@ -119,47 +119,58 @@ header {
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid red;
 }
 .topic {
-  border: 1px solid red;
 }
 .topic-head {
   position: relative;
 }
 .topic-title {
   position: relative;
-  border: 1px solid red;
 }
 .topic-pic {
   margin-top: 50px;
   display: flex;
   justify-content: center;
-  border: 1px solid red;
 }
 .topic-pic > img {
   width: 800px;
-  border: 1px solid red;
 }
 .topic-header {
   margin-top: 80px;
   display: grid;
-  grid-template-columns: 300px auto 300px;
-  grid-template-rows: 1000px 1000px 1000px;
-  border: 1px solid red;
+  grid-template-columns: 150px auto 150px;
+  grid-template-rows: 100px 1000px 100px;
 }
-.author {
-  width: 100%;
-  height: 100%;
-  border: 2px dotted red;
+
+.topic-author {
+  display: flex;
+  gap: 10px;
 }
-.view {
-  width: 100%;
-  height: 100%;
-  border: 2px dotted red;
+.pic {
+  width: 44px;
+  height: 44px;
+  border: solid rgb(255, 255, 255, 0.5) 1px;
+  border-radius: 50%;
+  background-image: url(https://unread.today/files/profile/0f46a164a4640fa6ce9c12e88ab2d48a.jpeg);
+  background-size: contain;
 }
-.social-logo {
-  width: 100%;
-  height: 100%;
-  border: 2px dotted red;
+.topic-main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.topic-right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.topic-text {
+}
+.article-body h2 {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: sans-serif;
 }

@@ -669,7 +669,7 @@ section {
   display: flex;
   justify-content: space-between;
 }
-.bulancolumn {
+.bulant {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -680,7 +680,7 @@ section {
   font-size: 10.8px;
   opacity: 50%;
 }
-.garchigungu {
+.bulanguud {
   color: #0078f8;
   font-weight: 700;
   font-size: 14.4px;
@@ -688,20 +688,20 @@ section {
 .urtuulugchid {
   margin-top: 30px;
 }
-.wordhover {
+.footer-list {
   opacity: 50%;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
-.wordhover:hover {
+.footer-list:hover {
   opacity: 1;
   transform: translate(5px, 0);
 }
-.zochloh {
+.visit {
   margin-top: 30px;
   opacity: 1;
 }
-.socieliconlast {
+.social-icons {
   padding: 90px 0;
   color: rgb(255, 255, 255, 0.2);
   font-size: 40px;
@@ -709,25 +709,4 @@ section {
   margin: auto;
   display: flex;
   justify-content: space-between;
-}
-.fa-square-facebook:hover {
-  color: #4267b2;
-}
-.fa-square-x-twitter:hover {
-  color: white;
-}
-.fa-instagram:hover {
-  background: -webkit-linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.fa-linkedin-in:hover {
-  color: #0077b5;
-}
-
-.fa-youtube:hover {
-  color: #ff2500;
-}
-.fa-soundcloud:hover {
-  color: #f50;
 }
