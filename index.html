@@ -9,28 +9,34 @@
   </head>
   <body>
     <header>
-        <nav>
+      <nav>
         <div class="sticky top" style="height: 86px;">
-            <div class="header-container">
-                <div class="containerL">
-                <input id="checkbox" type="checkbox">
-                <label class="toggle"   for="checkbox">
-                    <div id="bar1" class="bar1"></div>
-                    <div id="bar2" class="bar2"></div>
-                    <div id="bar3" class="bar3"></div>
-                </label>
-                <div class="logo"><img height="18px" src="/images/logo-white.png" alt=""></div>
-                <div class="spaceline"><img height="19px" src="/images/grip-lines-vertical-solid.svg" alt=""></div>
-                <div class="searchicon"><img height="19px" src="/images/magnifying-glass-solid.svg" alt=""></div>
-                <div class="searchw"><input type="text" placeholder="Хайлт хийх"></div>
-                </div>
-                <div class="containerR">
-                    <div class="next_topic">дараагийн нийтлэл</div>
-                    <div class="random">#RANDOM</div>
-                    <div class="today">Өнөөдөр орно</div>
-                </div>
+          <div class="nav-container">
+            <div class="containerL">
+            <input id="checkbox" type="checkbox">
+            <label class="toggle"   for="checkbox">
+              <div id="bar1" class="bar1"></div>
+              <div id="bar2" class="bar2"></div>
+              <div id="bar3" class="bar3"></div>
+            </label>
+          <div class="logo"><img height="18px" src="./images/logo-white.png"></div>
+          <div class="spaceliner">|</div>
+          <div class="searchicon"><i class="fa-solid fa-magnifying-glass"></i></div>
+          <div class="searchw"><input type="text" placeholder="Хайлт хийх"></div>
+              </div>
+            <div class="containerR">
+              <div class="next_topic">дараагийн нийтлэл</div>
+              <div class="random">#RANDOM</div>
+              <div class="today">Өнөөдөр орно <span><i class="fa-solid fa-circle-dot"></i></span></div>
+              <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
             </div>
-        </nav>
+        </div>
+      </nav>
         <div class="hero-news">
             <div class="news-hover">
               <div class="news-photo"></div>
@@ -40,7 +46,7 @@
               <div class="maincontenttext">
                 <p>ЧӨЛӨӨТ</p>
             <br>
-                <span>Олимпын наадам, Европын аваргыг тухлан үзэх 5 байршил</span>
+                <span><a class="maincontenthome" href="./unread_home/index.html">Олимпын наадам, Европын аваргыг тухлан үзэх 5 байршил</a></span>
               </div>
               <div class="author">
                 <div class="pic"></div>
@@ -54,8 +60,8 @@
           <div class="Lefttopic">
             <p>Редакцын сонголт</p>
             <div class="icon-half">
-              <i class="fa-solid fa-less-than"></i>
-              <i class="fa-solid fa-greater-than"></i>
+              <i class="fa-solid fa-angle-left"></i>
+              <i class="fa-solid fa-angle-right"></i>
             </div>
           </div>
           <div class="dailynews">
@@ -76,7 +82,7 @@
                 <p>8мин</p>
               </div>
               <div class="dailynewsgarchig">
-                <p class="uzeltiin too">
+                <p class="View">
                   <i class="fa-solid fa-eye"></i> 879
                   <span><i class="fa-solid fa-comment"></i> 0</span>
                 </p>
@@ -91,7 +97,7 @@
                 <p>8мин</p>
               </div>
               <div class="dailynewsgarchig">
-                <p class="uzeltiin too">
+                <p class="View">
                   <i class="fa-solid fa-eye"></i> 3579
                   <span><i class="fa-solid fa-comment"></i> 0</span>
                 </p>
@@ -107,7 +113,7 @@
                 <p>8мин</p>
               </div>
               <div class="dailynewsgarchig">
-                <p class="uzeltiin too">
+                <p class="View">
                   <i class="fa-solid fa-eye"></i> 109
                   <span><i class="fa-solid fa-comment"></i> 10</span>
                 </p>
@@ -123,13 +129,12 @@
                 <p>8мин</p>
               </div>
               <div class="dailynewsgarchig">
-                <p class="uzeltiin too">
+                <p class="View">
                   <i class="fa-solid fa-eye"></i> 79
                   <span><i class="fa-solid fa-comment"></i> 10</span>
                 </p>
                 <p class="smalltitle">
-                  Magic store – Жижиглэн худалдаа ба технологийн хослол
-                </p>
+                  “Натур Мед Толун” багийн тамирчин Т.Хангалын онцлох таван тоглолт</p>
                 <p><span class="newslasttext">Чөлөөт</span></p>
               </div>
             </div>
@@ -139,207 +144,184 @@
         <div class="hero-background uk-cover-background progressive-bg-image" style="background-image: url(./images/Central.jpeg)" data-large="https://kfPBba1jolZh.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/08c0d0c8d5ccb207e5382dd263de6444.jpg"></div>
         <div class="hero-gradient"></div>
     </section>
-    <article>
-        <div class="article_left">
-            <div class="author">
-              <div class="authorpic1"></div>
-              <div class="authorname_e">
-                <p class="enkhmunkh">Unread Today</p>
-                <p class="authordate">5 сарын 30, 2024 • 4 мин</p>
-              </div>
-            </div>
-            <div class="articletext">
-              <div class="articletextmain">
-                <h1><div class="dot"></div>Techworm</h1>
-                <h2>Таны хүүхдийг уран зохиолд дурлуулах 10 ном</h2>
-              </div>
-              <div class="articleimg articlepic1"></div>
-            </div>
-            <div class="article_right">
-                <div class="author author-right">
-                  <div class="authorpic2"></div>
-                  <div class="authorname_e">
-                    <p class="enkhmunkh">Oyunlkham Gungaadorj</p>
-                    <p class="authordate">5 сарын 30, 2024 • 2 мин</p>
-                  </div>
-                </div>
-                <div class="articletext">
-                  <div class="articletextmain"><h1><div class="dot"></div>Чөлөөт</h1>
-                    <h2>Олимпын наадам, Европын аваргыг тухлан үзэх 5 байршил</h2>
-                  </div>
-                  <div class="articleimg articlepic2"></div>
-                </div>
-              </div>
-        <div class="article_left">
-            <div class="author">
-              <div class="authorpic1"></div>
-              <div class="authorname_e">
-                <p class="enkhmunkh">Unread Today</p>
-                <p class="authordate">5 сарын 30, 2024 • 4 мин</p>
-              </div>
-            </div>
-            <div class="articletext">
-              <div class="articletextmain">
-                <h1><div class="dot"></div>Techworm</h1>
-                <h2>Таны хүүхдийг уран зохиолд дурлуулах 10 ном</h2>
-              </div>
-              <div class="articleimg articlepic1"></div>
-            </div>
-            <div class="article_right">
-                <div class="author author-right">
-                  <div class="authorpic2"></div>
-                  <div class="authorname_e">
-                    <p class="enkhmunkh">Oyunlkham Gungaadorj</p>
-                    <p class="authordate">5 сарын 30, 2024 • 2 мин</p>
-                  </div>
-                </div>
-                <div class="articletext">
-                  <div class="articletextmain"><h1><div class="dot"></div>Би хэрхэн ажилладаг вэ?</h1>
-                    <h2>Монгол Улсын Ерөнхийлөгчийн Эдийн засгийн бодлогын зөвлөх Б.Даваадалай</h2>
-                  </div>
-                  <div class="articleimg articlepic2"></div>
-                </div>
-              </div>
-              <div class="allnewsdate">
-                <div class="datebox datebox_1">Өнгөрсөн 7 хоногт</div>
-                <div class="datebox datebox_2">05/20 - 05/26</div>
-                <div class="datebox datebox_3">05/13 - 05/19</div>
-                <div class="datebox datebox_4">05/06 - 05/12</div>
-              </div>
-              <div class="allnewsphoto">
-                <div class="allnewsgridleft">
-                  <div class="photosize box1">
-                    <div class="hugatsaa">8 мин</div>
-                    <div class="backimg"></div>
-                    <div class="box1text">
-                      <h1>7 хоногийн тойм</h1>
-                      <p>AI компьютер + Нэр дэвшигчид + Каннын шилдгүүд</p>
-                    </div>
-                  </div>
-                  <div class="photosize box2">
-                    <div class="hugatsaa">8 мин</div>
-                    <div class="backimg"></div>
-                    <div class="box1text">
-                      <h1>7 хоногийн тойм</h1>
-                      <p>Simple Plus үйлчилгээг сонгох 5 шалтгаан</p>
-                    </div>
-                  </div>
-                  <div class="photosize box3">
-                    <div class="hugatsaa">6 мин</div>
-                    <div class="backimg"></div>
-                    <div class="box1text">
-                      <h1>НОМЫН ТУХАЙ</h1>
-                      <p>Таны хүүхдийг зурагт номын ертөнцтэй танилцуулах 10 ном</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="allnewsgridright">
-                  <div class="photosize box4">
-                    <div class="hugatsaa">6 мин</div>
-                    <div class="backimg"></div>
-                    <div class="box1text">
-                      <h1>7 хоногийн тойм</h1>
-                      <p>Гэм буруутан + Дээж цуглуулагч + Код бичигч</p>
-                    </div>
-                  </div>
-                  <div class="photosize box5">
-                    <div class="hugatsaa">6 мин</div>
-                    <div class="backimg"></div>
-                    <div class="box1text">
-                      <h1>Өртөөлгчид</h1>
-                      <p>
-                        Дэлхийд эгшиглэх монгол аялгууг амилуулагч “Чөлүгэн” морин
-                        хуурын дөрвөл
-                      </p>
-                    </div>
-                  </div>
-                  <div class="photosize box6">
-                    <div class="hugatsaa">6 мин</div>
-                    <div class="backimg"></div>
-                    <div class="box1text">
-                      <h1>Чөлөөт</h1>
-                      <p>
-                        Зуны спортын их наадмуудыг Кока-Колатай хамт Централ ТВ-ээр
-                        үзэцгээе
-                      </p>
-                    </div>
-                  </div>
-                  <div class="photosize box7">
-                    <div class="hugatsaa">6 мин</div>
-                    <div class="backimg"></div>
-                    <div class="box1text">
-                      <h1>Чөлөөт</h1>
-                      <p>
-                        3x3 сагсан бөмбөгийн тамирчин О.Хулангийн онцлох таван тоглолт
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-    </article>
-            <footer>
-        <div class="menuandcontact">
-          <div class="footerunreadlogo">
-            <div class="unreadlast"></div>
-            <button class="footerbutton">
-              <h1>Хамтран ажиллах хүсэлт илгээх</h1>
-              <h2>Контент нийтлүүлэх</h2>
-            </button>
-            <button class="footerbutton">
-              <h1>Хамтран ажиллах хүсэлт илгээх</h1>
-              <h2>Эвент дээр хамтрах</h2>
-            </button>
-            <div class="appstorelogo">
-              <img width="144px" height="50px" src="images/app_android.png" alt="">
-              <img width="144px" height="50px" src="images/app_ios.png" alt="">
-            </div>
-          </div>
-          <div class="footertext">
-            <div class="footerredac">
-              <p>Редакцын</p>
-              <p>бодлого</p>
-              <p>Блог</p>
-              <p>Ажлын байр</p>
-              <p>Холбогдох</p>
-            </div>
-            <p class="copyright">
-              © 2015-2024 Анрид Медиа ХХК. Бүх эрх хуулиар хамгаалагдсан.
-              Контентуудыг зөвшөөрөлгүйгээр болон дурдалгүйгээр нийтлэх, хэвлэх,
-              эш татахыг хориглоно.
-            </p>
-            <div class="bulan">
-              <div class="bulant tsloh">
-                <p class="bulanguud">Булангууд</p>
-                <p class="footer-list">Онцлох бизнес</p>
-                <p class="footer-list">Techworm</p>
-                <p class="footer-list">Би хэрхэн ажилладаг вэ?</p>
-                <p class="footer-list">Мэдүүштэй</p>
-                <p class="footer-list">Чөлөөт</p>
-                <p class="footer-list">Номын тухай</p>
-                <p class="footer-list">7 хоногийн тойм</p>
-              </div>
-              <div class="bulant urtuulugchid">
-                <p class="footer-list">Өртөөлөгчид</p>
-                <p class="footer-list">Тогтвортой хөгжил</p>
-                <p class="footer-list">Тайлбарлах нь</p>
-                <p class="footer-list">10 ертөнц, 10 өнцөг</p>
-                <p class="footer-list">Таатай оффис</p>
-                <p class="footer-list">Зочинтой булан</p>
-                <p class="footer-list">8 минутын улс төр</p>
-              </div>
-              <div class="bulant">
-                <p class="garchigungu">Компани</p>
-                <p class="footer-list">
-                  Компани Улаанбаатар 14240 СБД, 8-р хороо, Амарын гудамж,
-                  Тэнгэрлиг медиа групп
-                </p>
-                <p class="footer-list">+976 9921 2778</p>
-                <p class="footer-list">+976 8801 3893</p>
-                <p class="footer-list visit">Зочлох: www.unread.media</p>
-              </div>
-            </div>
-          </div>
+    <main>
+      <div class="article_right">
+        <div class="author author-right">
+          <div class="authorpic1"></div>
+        <div class="authorname_e">
+          <p class="author-name">Gerelchimeg Jargalsaikhan</p>
+          <p class="authordate">6 сарын 03, 2024 • 2 мин</p></div></div>
+        <div class="articletext">
+          <div class="articletextmain"><h1><div class="dot"></div>ЧӨЛӨӨТ</h1>
+          <h2><a class="unread_home"  href="/unread_home/index.html">Олимпын наадам, Европын аваргыг тухлан үзэх 5 байршил</a></h2>
+          <p class="View">
+            <i class="fa-solid fa-eye"></i> 2621
+            <span><i class="fa-solid fa-comment"></i> 10</span></div>
+        <div class="articleimg articlepic1"></div></div>
+      </div>
+      <div class="article_left">
+        <div class="author">
+          <div class="authorpic2"></div>
+        <div class="authorname_e">
+          <p class="author-name">Unread Today</p>
+          <p class="authordate">6 сарын 03, 2024 • 1 мин</p></div>
+      </div>
+      <div class="articletext">
+        <div class="articletextmain">
+        <h1><div class="dot"></div>Techworm</h1>
+        <h2>Таны хүүхдийг уран зохиолд дурлуулах 10 ном</h2>
+        <p class="View">
+          <i class="fa-solid fa-eye"></i> 13737
+          <span><i class="fa-solid fa-comment"></i> 10</span></div>
+        <div class="articleimg articlepic2"></div></div>
+      <div class="article_right">
+        <div class="author author-right">
+          <div class="authorpic3"></div>
+        <div class="authorname_e">
+          <p class="author-name">Oyunlkham Gungaadorj</p>
+          <p class="authordate">6 сарын 03, 2024 • 13 мин</p></div></div>
+        <div class="articletext">
+          <div class="articletextmain"><h1><div class="dot"></div>Би хэрхэн ажилладаг вэ?</h1>
+          <h2>Монгол Улсын Ерөнхийлөгчийн Эдийн засгийн бодлогын зөвлөх Б.Даваадалай</h2>
+          <p class="View">
+            <i class="fa-solid fa-eye"></i> 11161
+            <span><i class="fa-solid fa-comment"></i> 10</span></div>
+        <div class="articleimg articlepic3"></div></div>
+      </div>
+      </main>
+      <aside>
+        <div class="allnewsdate">
+          <div class="datebox datebox_1">Өнгөрсөн 7 хоногт</div>
+          <div class="datebox datebox_2">05/20 - 05/26</div>
+          <div class="datebox datebox_3">05/13 - 05/19</div>
+          <div class="datebox datebox_4">05/06 - 05/12</div>
         </div>
+        <div class="allnewsphoto">
+          <div class="allnewsgridleft">
+            <div class="gridphoto box1">
+              <div class="timing">8 мин</div>
+              <div class="backimg"></div>
+              <div class="box1text"><h1>7 хоногийн тойм</h1>
+                <p>AI компьютер + Нэр дэвшигчид + Каннын шилдгүүд</p>
+              </div></div>
+            <div class="gridphoto box2">
+              <div class="timing">8 мин</div>
+              <div class="backimg"></div>
+              <div class="box1text">
+                <h1>7 хоногийн тойм</h1>
+                <p>Simple Plus үйлчилгээг сонгох 5 шалтгаан</p>
+              </div>
+            </div>
+            <div class="gridphoto box3">
+              <div class="timing">6 мин</div>
+              <div class="backimg"></div>
+              <div class="box1text">
+                <h1>НОМЫН ТУХАЙ</h1>
+                <p>Таны хүүхдийг зурагт номын ертөнцтэй танилцуулах 10 ном</p>
+              </div>
+            </div>
+          </div>
+          <div class="allnewsgridright">
+            <div class="gridphoto box4">
+              <div class="timing">6 мин</div>
+              <div class="backimg"></div>
+              <div class="box1text">
+                <h1>7 хоногийн тойм</h1>
+                <p>Гэм буруутан + Дээж цуглуулагч + Код бичигч</p>
+              </div>
+            </div>
+            <div class="gridphoto box5">
+              <div class="timing">6 мин</div>
+              <div class="backimg"></div>
+              <div class="box1text">
+                <h1>Өртөөлгчид</h1>
+                <p>
+                  Дэлхийд эгшиглэх монгол аялгууг амилуулагч “Чөлүгэн” морин
+                  хуурын дөрвөл
+                </p>
+              </div>
+            </div>
+            <div class="gridphoto box6">
+              <div class="timing">6 мин</div>
+              <div class="backimg"></div>
+              <div class="box1text">
+                <h1>Чөлөөт</h1>
+                <p>
+                  Зуны спортын их наадмуудыг Кока-Колатай хамт Централ ТВ-ээр
+                  үзэцгээе
+                </p>
+              </div>
+            </div>
+            <div class="gridphoto box7">
+              <div class="hugatsaa">6 мин</div>
+              <div class="backimg"></div>
+              <div class="box1text">
+                <h1>Чөлөөт</h1>
+                <p>
+                  3x3 сагсан бөмбөгийн тамирчин О.Хулангийн онцлох таван тоглолт
+                </p>
+              </div>
+            </div>
+          </div>
+      </aside>
+      <div class="footer-top">
+        <div class="footer-top-inside"</div>
+      </div>
+  <footer>
+      <div class="menuandcontact">
+      <div class="footerunreadlogo">
+          <div class="unreadfooterlogo"><img  width="135px" src="https://unread.today/img/unread_white.png" alt=""></div>
+         <button class="contactbutton1">
+           <span class="arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+           <h1>Хамтран ажиллах хүсэлт илгээх</h1>
+          <h2>Контент нийтлүүлэх</h2></button>
+          <button class="contactbutton1">
+            <span class="arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+          <h1>Хамтран ажиллах хүсэлт илгээх</h1>
+          <h2>Эвент дээр хамтрах</h2></button>
+          <div class="appstorelogo">
+           <a href=""> <img width="140px" src="https://unread.today/img/app_android.png" alt=""></a>
+            <a href="https://apps.apple.com/mn/app/unread-today/id1100135982"><img width="140px" src="https://unread.today/img/app_ios.png" alt=""></div></a>
+      </div>
+      <div class="footerright">
+        <div class="footer-nav">
+          <p>Редакцын бодлого</p>
+          <p>Блог</p>
+          <p>Ажлын байр</p>
+          <p>Холбогдох</p></div>
+        <div class="copy-right"> <p>© 2015-2024 Анрид Медиа ХХК. Бүх эрх хуулиар хамгаалагдсан. Контентуудыг зөвшөөрөлгүйгээр болон дурдалгүйгээр нийтлэх, хэвлэх, эш татахыг хориглоно.
+        </p></div>
+        <div class="footer-grid">
+          <span class="corner1"><span>Булангууд</span>
+                    <p class="footer-list">Онцлох бизнес</p>
+                    <p class="footer-list">Techworm</p>
+                    <p class="footer-list">Би хэрхэн ажилладаг вэ?</p>
+                    <p class="footer-list">Мэдүүштэй</p>
+                    <p class="footer-list">Чөлөөт</p>
+                    <p class="footer-list">Номын тухай</p>
+                    <p class="footer-list">7 хоногийн тойм</p>
+          </span>
+          <span class="corner2">
+            <p class="footer-list">Өртөөлөгчид</p>
+            <p class="footer-list">Тогтвортой хөгжил</p>
+            <p class="footer-list">Тайлбарлах нь</p>
+            <p class="footer-list">10 ертөнц, 10 өнцөг</p>
+            <p class="footer-list">Таатай оффис</p>
+            <p class="footer-list">Зочинтой булан</p>
+            <p class="footer-list">8 минутын улс төр</p>
+          </span>
+          <span class="corner1"><span>Компани</span> 
+            <p class="footer-list">
+              Улаанбаатар 14240 СБД, 8-р хороо, Амарын гудамж,
+              Тэнгэрлиг медиа групп
+            </p>
+            <p class="footer-list">+976 9921 2778</p>
+            <p class="footer-list">+976 8801 3893</p>
+            <p class="footer-list">Зочлох: </p class="visit">www.unread.media</p>
+          </span>
+        </div>
+      </div>
+      </div>
         <div class="social-icons">
           <i class="fa-brands fa-square-facebook"></i>
           <i class="fa-brands fa-square-x-twitter"></i>
@@ -348,6 +330,6 @@
           <i class="fa-brands fa-youtube"></i>
           <i class="fa-brands fa-soundcloud"></i>
         </div>
-      </footer>
+    </footer>
   </body>
 </html>
